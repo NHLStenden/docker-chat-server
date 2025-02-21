@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  chat_server:
+    build:
+      context: ./server
+    container_name: chat_server
+    networks:
+      - chat_network
+    ports:
+      - "12345:12345"  # Zorg ervoor dat poort 12345 van de server beschikbaar is op de host
+
+  chat_client_1:
+    build:
+      context: ./client
+    container_name: chat_client_1
+    networks:
+      - chat_network
+    depends_on:
+      - chat_server
+    stdin_open: true  # Open stdin voor interactie
+    tty: true  # Zet TTY aan voor terminalinteractie
+
+  chat_client_2:
+    build:
+      context: ./client
+    container_name: chat_client_2
+    networks:
+      - chat_network
+    depends_on:
+      - chat_server
+    stdin_open: true
+    tty: true
+
+networks:
+  chat_network:
+    driver: bridge
