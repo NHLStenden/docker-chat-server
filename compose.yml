@@ -1,10 +1,12 @@
-version: '3.8'
-
 services:
   chat_server:
     build:
       context: ./server
     container_name: chat_server
+    volumes:
+      - type: bind
+        source: ./server
+        target: /app/tcpdump
     networks:
       - chat_network
     ports:
@@ -31,6 +33,20 @@ services:
       - chat_server
     stdin_open: true
     tty: true
+
+  sniffer:
+    build:
+      context: ./sniffer
+    depends_on:
+      - chat_server
+      - chat_client_2
+      - chat_client_1
+    networks:
+      - chat_network
+    volumes:
+      - type: bind
+        source: ./sniffer
+        target: /app/tcpdump
 
 networks:
   chat_network:

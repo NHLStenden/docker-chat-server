@@ -2,7 +2,13 @@
 FROM python:3.9
 
 WORKDIR /app
-COPY . /app
+COPY *.sh /app
+COPY *.py /app
 
-CMD ["python3", "server.py"]
+RUN apt-get update && \
+    apt-get install -y tcpdump && \
+    chmod a+x start.sh
 
+USER root
+
+CMD /bin/bash -c /app/start.sh
