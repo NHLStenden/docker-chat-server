@@ -27,7 +27,10 @@ Repeat for the second chat-party open another shell and run
 
 Now start typing in last two and see how the chat is taking place.
 
-# Using Wireshark to listen in on the conversation
+# Using Wireshark to listen in on the conversation (Linux)
+
+When using Windows as a host system it is not possible to listen in on the network traffic. Instead, a different
+approach is used. Please see 
 
 Install and run Wireshark (as admin/sudo). Find the network card created for Docker:
 ```shell
@@ -50,6 +53,26 @@ Notice the text `vethbc5b317`. In Wireshark this interface should be present in 
 ![Wireshark-01.png](images/Wireshark-01.png)
 
 In the image above the correct interface is highlighted in blue. Just double click on this interface and start typing. 
+
+# Using Wireshark to listen in on the conversation (Windows)
+
+The server will create a tcpdump data file that can be read using Wireshark. So after sending some data using the
+chat client, you will see a data file being filled at the folder `./server/data/dump.pcap`.
+
+You can open this file using Wireshark and see the same data, only be it not the live data. Using the refresh-button
+in the menu of Wireshark we can simulate the live-viewing of data.
+
+# Finding the data in Wireshark
+
+When data is viewed in Wireshark look for an entry like below:
+
+![Wireshark-02.png](images/Wireshark-02.png)
+
+Look in the column 'Info' and look for the text `[PSH, ACK]`.When clicking this line the data becomes visible in the 
+lower section of the screen. In the example below we sent the text `abcdefghijklmnop` which is clearly visible in the
+right-hand side of this section.
+
+![Wireshark-03.png](images/Wireshark-03.png)
 
 # Security implications
 
