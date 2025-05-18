@@ -30,6 +30,19 @@ To **end the chat session** press `Control+P` then `Control+Q`.
 
 Now start typing in last two and see how the chat is taking place.
 
+# Joining the chat from the host
+
+It is possible to join the server from the host if the `server.py` script runs within the Docker server. Make sure
+you have Python installed. If running from Windows, please install `windows-curses` using `pip install`.
+
+Note that we use the `localhost` hostname here, but we might as well have used `127.0.0.1`. This is because the Docker
+ip-address is not reachable, but the port `12345` is exposed! 
+
+```text
+python.exe client.py -i localhost -p 12345 MyHipsterUsername
+
+```
+
 # Using Wireshark to listen in on the conversation (Linux)
 
 When using Windows as a host system it is not possible to listen in on the network traffic. Instead, a different
@@ -53,7 +66,7 @@ Yields something like:
 
 Notice the text `vethbc5b317`. In Wireshark this interface should be present in the list with interfaces:
 
-![Wireshark-01.png](images/Wireshark-01.png)
+![Wireshark-01.png](./images/Wireshark-01.png)
 
 In the image above the correct interface is highlighted in blue. Just double click on this interface and start typing. 
 
@@ -69,13 +82,13 @@ in the menu of Wireshark we can simulate the live-viewing of data.
 
 When data is viewed in Wireshark look for an entry like below:
 
-![Wireshark-02.png](images/Wireshark-02.png)
+![Wireshark-02.png](./images/Wireshark-02.png)
 
 Look in the column 'Info' and look for the text `[PSH, ACK]`.When clicking this line the data becomes visible in the 
 lower section of the screen. In the example below we sent the text `abcdefghijklmnop` which is clearly visible in the
 right-hand side of this section.
 
-![Wireshark-03.png](images/Wireshark-03.png)
+![Wireshark-03.png](./images/Wireshark-03.png)
 
 # Security implications
 
