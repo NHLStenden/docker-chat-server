@@ -50,7 +50,7 @@ def chat_ui(stdscr, client_socket, username):
     input_win = curses.newwin(3, width, height - 3, 0)
 
     msg_win.scrollok(True)
-    input_win.addstr("You: ")
+    input_win.addstr(f"{username}: ")
     input_win.refresh()
 
     listener = threading.Thread(target=listen_for_messages, args=(client_socket, msg_win))
@@ -61,7 +61,7 @@ def chat_ui(stdscr, client_socket, username):
 
     while not stop_event.is_set():
         input_win.clear()
-        input_win.addstr("You: ")
+        input_win.addstr(f"{username}: ")
         curses.echo()
         msg = input_win.getstr().decode('utf-8')
         curses.noecho()
