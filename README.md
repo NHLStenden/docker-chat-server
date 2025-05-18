@@ -25,6 +25,9 @@ Repeat for the second chat-party open another shell and run
   docker attach chat_client_2
 ```
 
+To **end the chat session** press `Control+P` then `Control+Q`. 
+
+
 Now start typing in last two and see how the chat is taking place.
 
 # Using Wireshark to listen in on the conversation (Linux)
