@@ -7,6 +7,9 @@ services:
       - type: bind
         source: ./server
         target: /app/tcpdump
+      - type: bind
+        source: ./server
+        target: /app/logs
     networks:
       - chat_network
     ports:
@@ -22,6 +25,8 @@ services:
       - chat_server
     stdin_open: true  # Open stdin voor interactie
     tty: true  # Zet TTY aan voor terminalinteractie
+    environment:
+      CHAT_USERNAME: Martin
 
   chat_client_2:
     build:
@@ -33,6 +38,21 @@ services:
       - chat_server
     stdin_open: true
     tty: true
+    environment:
+      CHAT_USERNAME: Bob
+
+  chat_client_3:
+    build:
+      context: ./client
+    container_name: chat_client_3
+    networks:
+      - chat_network
+    depends_on:
+      - chat_server
+    stdin_open: true
+    tty: true
+    environment:
+      CHAT_USERNAME: Alice
 
   sniffer:
     build:

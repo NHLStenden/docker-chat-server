@@ -22,7 +22,7 @@ Then open another command shell for the first chat-party and run
 Repeat for the second chat-party open another shell and run
 
 ```shell
-  docker attach chat_client_1
+  docker attach chat_client_2
 ```
 
 Now start typing in last two and see how the chat is taking place.

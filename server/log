@@ -1,0 +1,219 @@
+✅ Server listening on 0.0.0.0:12345
+📥 Client connected: ('172.24.0.4', 48750)
+📨 From ('172.24.0.4', 48750): Martin has joined the chat.
+📥 Client connected: ('172.24.0.5', 47050)
+📨 From ('172.24.0.5', 47050): Bob has joined the chat.
+📥 Client connected: ('172.24.0.6', 50200)
+📨 From ('172.24.0.6', 50200): Alice has joined the chat.
+📥 Client connected: ('172.24.0.1', 35312)
+📨 From ('172.24.0.1', 35312): martin has joined the chat.
+📨 From ('172.24.0.5', 47050): Bob: hoera hoera
+📨 From ('172.24.0.1', 35312): martin: dit is een test
+❌ Client disconnected: ('172.24.0.1', 35312)
+📥 Client connected: ('172.24.0.1', 52394)
+📨 From ('172.24.0.1', 52394): martin has joined the chat.
+❌ Client disconnected: ('172.24.0.5', 47050)
+📥 Client connected: ('172.24.0.5', 42524)
+📨 From ('172.24.0.5', 42524): Bob has joined the chat.
+📨 From ('172.24.0.5', 42524): Bob: dit is een test
+📨 From ('172.24.0.1', 52394): martin: dit is leuk zeg
+📨 From ('172.24.0.5', 42524): Bob: keeokeoke
+❌ Client disconnected: ('172.24.0.5', 42524)
+❌ Client disconnected: ('172.24.0.6', 50200)
+❌ Client disconnected: ('172.24.0.4', 48750)
+📥 Client connected: ('172.24.0.5', 52058)
+📨 From ('172.24.0.5', 52058): Bob has joined the chat.
+📥 Client connected: ('172.24.0.4', 55750)
+📨 From ('172.24.0.4', 55750): Martin has joined the chat.
+📥 Client connected: ('172.24.0.6', 51618)
+📨 From ('172.24.0.6', 51618): Alice has joined the chat.
+📨 From ('172.24.0.5', 52058): Bob: 
+📨 From ('172.24.0.5', 52058): Bob: 
+📨 From ('172.24.0.5', 52058): Bob: keoekf
+📨 From ('172.24.0.5', 52058): Bob: eokda
+📨 From ('172.24.0.5', 52058): Bob: eokfeok
+📨 From ('172.24.0.5', 52058): Bob: aokefoke
+📨 From ('172.24.0.5', 52058): Bob: aokef
+📨 From ('172.24.0.5', 52058): Bob: aokef
+📨 From ('172.24.0.1', 52394): martin: en ik dan
+❌ Client disconnected: ('172.24.0.1', 52394)
+📥 Client connected: ('172.24.0.1', 42736)
+📨 From ('172.24.0.1', 42736): martin has joined the chat.
+❌ Client disconnected: ('172.24.0.1', 42736)
+📥 Client connected: ('172.24.0.1', 47026)
+📨 From ('172.24.0.1', 47026): martin has joined the chat.
+❌ Client disconnected: ('172.24.0.1', 47026)
+📥 Client connected: ('172.24.0.1', 55686)
+📨 From ('172.24.0.1', 55686): martin has joined the chat.
+❌ Client disconnected: ('172.24.0.1', 55686)
+📥 Client connected: ('172.24.0.1', 53774)
+📨 From ('172.24.0.1', 53774): martin has joined the chat.
+📨 From ('172.24.0.1', 53774): martin: eeef
+📨 From ('172.24.0.1', 53774): martin: efbregerg
+📨 From ('172.24.0.1', 53774): martin: egf
+📨 From ('172.24.0.5', 52058): Bob: a
+📨 From ('172.24.0.5', 52058): Bob: man wat leuk
+📨 From ('172.24.0.5', 52058): Bob: dkdlsklkafs
+❌ Client disconnected: ('172.24.0.5', 52058)
+❌ Client disconnected: ('172.24.0.1', 53774)
+📥 Client connected: ('172.24.0.1', 52188)
+📨 From ('172.24.0.1', 52188): martin2 has joined the chat.
+📥 Client connected: ('172.24.0.1', 52194)
+📨 From ('172.24.0.1', 52194): martin has joined the chat.
+📨 From ('172.24.0.1', 52188): martin2: hoi hoi
+❌ Client disconnected: ('172.24.0.1', 52194)
+📥 Client connected: ('172.24.0.1', 38824)
+📨 From ('172.24.0.1', 38824): martin has joined the chat.
+📨 From ('172.24.0.1', 38824): martin: fit
+📨 From ('172.24.0.1', 38824): martin: ekd
+📨 From ('172.24.0.1', 38824): martin: geome
+📨 From ('172.24.0.1', 38824): martin: efome
+❌ Client disconnected: ('172.24.0.1', 38824)
+📥 Client connected: ('172.24.0.1', 52102)
+📨 From ('172.24.0.1', 52102): martin has joined the chat.
+📨 From ('172.24.0.1', 52102): martin: efmoeofm
+📨 From ('172.24.0.1', 52102): martin: efmwfep
+📨 From ('172.24.0.1', 52102): martin: m3p
+📨 From ('172.24.0.1', 52102): martin: mfpmq3f
+❌ Client disconnected: ('172.24.0.1', 52188)
+📥 Client connected: ('172.24.0.1', 52466)
+📨 From ('172.24.0.1', 52466): martin2 has joined the chat.
+📨 From ('172.24.0.1', 52466): martin2: efomeofm
+📨 From ('172.24.0.1', 52466): martin2: efm
+📨 From ('172.24.0.1', 52102): martin: [omqfelofoef
+📨 From ('172.24.0.1', 52466): martin2: ef
+📨 From ('172.24.0.1', 52466): martin2: 
+📨 From ('172.24.0.1', 52466): martin2: 
+📨 From ('172.24.0.1', 52466): martin2: 
+📨 From ('172.24.0.1', 52466): martin2: efef
+📨 From ('172.24.0.1', 52466): martin2: efv
+📨 From ('172.24.0.1', 52466): martin2: evs
+📨 From ('172.24.0.1', 52466): martin2: rb
+📨 From ('172.24.0.1', 52466): martin2: erb
+📨 From ('172.24.0.1', 52466): martin2: erg
+📨 From ('172.24.0.1', 52466): martin2: e
+📨 From ('172.24.0.1', 52466): martin2: 
+📨 From ('172.24.0.1', 52466): martin2: 
+📨 From ('172.24.0.1', 52466): martin2: 
+📨 From ('172.24.0.1', 52466): martin2: 
+📨 From ('172.24.0.1', 52466): martin2: 
+📨 From ('172.24.0.1', 52466): martin2: 
+📨 From ('172.24.0.1', 52466): martin2: 
+📨 From ('172.24.0.1', 52466): martin2: 
+📨 From ('172.24.0.1', 52466): martin2: 
+📨 From ('172.24.0.1', 52466): martin2: 
+📨 From ('172.24.0.1', 52466): martin2: 
+📨 From ('172.24.0.1', 52466): martin2: 
+📨 From ('172.24.0.1', 52466): martin2: 
+📨 From ('172.24.0.1', 52466): martin2: 
+📨 From ('172.24.0.1', 52466): martin2: 
+📨 From ('172.24.0.1', 52466): martin2: 
+📨 From ('172.24.0.1', 52466): martin2: 
+📨 From ('172.24.0.1', 52466): martin2: 
+📨 From ('172.24.0.1', 52466): martin2: 
+📨 From ('172.24.0.1', 52466): martin2: 
+📨 From ('172.24.0.1', 52466): martin2: ef
+📨 From ('172.24.0.1', 52466): martin2: ef
+📨 From ('172.24.0.1', 52466): martin2: efw
+📨 From ('172.24.0.1', 52466): martin2: wef
+📨 From ('172.24.0.1', 52466): martin2: rb
+📨 From ('172.24.0.1', 52466): martin2: edr
+📨 From ('172.24.0.1', 52466): martin2: wef
+📨 From ('172.24.0.1', 52466): martin2: rwg
+📨 From ('172.24.0.1', 52466): martin2: wef
+📨 From ('172.24.0.1', 52466): martin2: wgre
+❌ Client disconnected: ('172.24.0.1', 52466)
+📥 Client connected: ('172.24.0.1', 33264)
+📨 From ('172.24.0.1', 33264): martin2 has joined the chat.
+📨 From ('172.24.0.1', 33264): martin2: eom,kfeokef
+❌ Client disconnected: ('172.24.0.1', 52102)
+📥 Client connected: ('172.24.0.1', 35300)
+📨 From ('172.24.0.1', 35300): martin has joined the chat.
+📨 From ('172.24.0.1', 35300): martin: emoefov 
+📨 From ('172.24.0.1', 35300): martin: omefome v
+📨 From ('172.24.0.1', 35300): martin: ef ef 
+❌ Client disconnected: ('172.24.0.1', 33264)
+📥 Client connected: ('172.24.0.1', 45126)
+📨 From ('172.24.0.1', 45126): martin2 has joined the chat.
+📨 From ('172.24.0.1', 45126): martin2: efmoefo
+📨 From ('172.24.0.1', 45126): martin2: efom
+📨 From ('172.24.0.1', 45126): martin2: 3omf3
+📨 From ('172.24.0.1', 45126): martin2: feom3
+📨 From ('172.24.0.1', 45126): martin2: rfmi3f
+📨 From ('172.24.0.1', 45126): martin2: if3pnm3
+❌ Client disconnected: ('172.24.0.1', 35300)
+📥 Client connected: ('172.24.0.1', 50666)
+📨 From ('172.24.0.1', 50666): martin has joined the chat.
+📨 From ('172.24.0.1', 50666): martin: foefmke
+📨 From ('172.24.0.1', 50666): martin: fmoek
+📨 From ('172.24.0.1', 50666): martin: 
+❌ Client disconnected: ('172.24.0.1', 50666)
+📨 From ('172.24.0.1', 45126): martin2: fpinm3f
+❌ Client disconnected: ('172.24.0.1', 45126)
+📥 Client connected: ('172.24.0.1', 57348)
+📨 From ('172.24.0.1', 57348): martin has joined the chat.
+📥 Client connected: ('172.24.0.1', 57350)
+📨 From ('172.24.0.1', 57350): martin2 has joined the chat.
+📨 From ('172.24.0.1', 57350): martin2: dit is me
+📨 From ('172.24.0.1', 57348): martin: keodkodk
+📨 From ('172.24.0.1', 57348): martin: eokf
+📨 From ('172.24.0.1', 57348): martin: eoka
+📨 From ('172.24.0.1', 57350): martin2: koekf
+📨 From ('172.24.0.1', 57350): martin2: ek
+📨 From ('172.24.0.1', 57350): martin2: foke
+📨 From ('172.24.0.1', 57350): martin2: hoe gaat het
+📨 From ('172.24.0.1', 57348): martin: het gaat goed
+❌ Client disconnected: ('172.24.0.4', 55750)
+❌ Client disconnected: ('172.24.0.6', 51618)
+📥 Client connected: ('172.24.0.4', 58832)
+📨 From ('172.24.0.4', 58832): Bob has joined the chat.
+📥 Client connected: ('172.24.0.5', 58490)
+📨 From ('172.24.0.5', 58490): Alice has joined the chat.
+📥 Client connected: ('172.24.0.6', 37338)
+📨 From ('172.24.0.6', 37338): Martin has joined the chat.
+📨 From ('172.24.0.4', 58832): Bob: 
+📨 From ('172.24.0.4', 58832): Bob: 
+📨 From ('172.24.0.4', 58832): Bob: hier ben ik
+📨 From ('172.24.0.1', 57350): martin2: gezellig @bob
+📨 From ('172.24.0.1', 57348): martin: mee eens
+📨 From ('172.24.0.4', 58832): Bob: 
+📨 From ('172.24.0.4', 58832): Bob: 
+📨 From ('172.24.0.5', 58490): Alice: 
+📨 From ('172.24.0.5', 58490): Alice: 
+📨 From ('172.24.0.5', 58490): Alice: ik ben er nu ook
+📨 From ('172.24.0.4', 58832): Bob: 
+📨 From ('172.24.0.4', 58832): Bob: en nu dan?
+📨 From ('172.24.0.4', 58832): Bob: 
+📨 From ('172.24.0.4', 58832): Bob: 
+❌ Client disconnected: ('172.24.0.1', 57350)
+❌ Client disconnected: ('172.24.0.1', 57348)
+📥 Client connected: ('172.24.0.1', 42080)
+📨 From ('172.24.0.1', 42080): martin has joined the chat.
+📥 Client connected: ('172.24.0.1', 42096)
+📨 From ('172.24.0.1', 42096): martin2 has joined the chat.
+❌ Client disconnected: ('172.24.0.1', 42080)
+📥 Client connected: ('172.24.0.1', 32818)
+📨 From ('172.24.0.1', 32818): martin has joined the chat.
+📨 From ('172.24.0.1', 32818): martin: nou zeg
+❌ Client disconnected: ('172.24.0.1', 42096)
+📥 Client connected: ('172.24.0.1', 57964)
+📨 From ('172.24.0.1', 57964): martin2 has joined the chat.
+❌ Client disconnected: ('172.24.0.1', 32818)
+📥 Client connected: ('172.24.0.1', 43604)
+📨 From ('172.24.0.1', 43604): martin has joined the chat.
+📨 From ('172.24.0.1', 43604): martin: eofmkoekf
+📨 From ('172.24.0.1', 43604): martin: akfeok
+📨 From ('172.24.0.1', 57964): martin2: okekeok
+📨 From ('172.24.0.1', 57964): martin2: foekkdlf
+📨 From ('172.24.0.4', 58832): Bob: 
+❌ Client disconnected: ('172.24.0.4', 58832)
+❌ Client disconnected: ('172.24.0.5', 58490)
+❌ Client disconnected: ('172.24.0.6', 37338)
+📥 Client connected: ('172.24.0.4', 54538)
+📨 From ('172.24.0.4', 54538): Martin has joined the chat.
+📥 Client connected: ('172.24.0.5', 34076)
+📨 From ('172.24.0.5', 34076): Alice has joined the chat.
+📥 Client connected: ('172.24.0.6', 43632)
+📨 From ('172.24.0.6', 43632): Bob has joined the chat.
+📨 From ('172.24.0.6', 43632): Bob: ik ben er
+📨 From ('172.24.0.5', 34076): Alice: ik ook hoor

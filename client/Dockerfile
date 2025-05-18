@@ -4,5 +4,7 @@ FROM python:3.9
 WORKDIR /app
 COPY . /app
 
-CMD ["python3", "client.py"] 
+RUN chmod a+rwx *.sh
+
+ENTRYPOINT /app/start.sh
 
